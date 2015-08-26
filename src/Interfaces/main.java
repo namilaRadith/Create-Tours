@@ -973,7 +973,7 @@ public class main extends javax.swing.JFrame {
         HOME.setLayout(HOMELayout);
         HOMELayout.setHorizontalGroup(
             HOMELayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 1145, Short.MAX_VALUE)
+            .addGap(0, 1165, Short.MAX_VALUE)
         );
         HOMELayout.setVerticalGroup(
             HOMELayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -1185,7 +1185,7 @@ public class main extends javax.swing.JFrame {
                                                 .addComponent(lbl_ownerID_Vehicle, javax.swing.GroupLayout.PREFERRED_SIZE, 145, javax.swing.GroupLayout.PREFERRED_SIZE))
                                             .addComponent(txt_owner_Name_Vehicle, javax.swing.GroupLayout.PREFERRED_SIZE, 145, javax.swing.GroupLayout.PREFERRED_SIZE)
                                             .addComponent(VehicleScrollPane3, javax.swing.GroupLayout.PREFERRED_SIZE, 194, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 83, Short.MAX_VALUE)
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 94, Short.MAX_VALUE)
                                         .addGroup(JpanalVMSLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                             .addComponent(btn_vehicleSearch_Vehicle, javax.swing.GroupLayout.PREFERRED_SIZE, 114, javax.swing.GroupLayout.PREFERRED_SIZE)
                                             .addComponent(btn_vehicleRemove_Vehicle, javax.swing.GroupLayout.PREFERRED_SIZE, 114, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -1379,28 +1379,27 @@ public class main extends javax.swing.JFrame {
             stdPakAdvanceSearchJPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(stdPakAdvanceSearchJPanelLayout.createSequentialGroup()
                 .addGroup(stdPakAdvanceSearchJPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(stdPakAdvanceSearchJPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                        .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, stdPakAdvanceSearchJPanelLayout.createSequentialGroup()
-                            .addGap(33, 33, 33)
-                            .addComponent(btn_StdPakAdvSearch))
-                        .addGroup(stdPakAdvanceSearchJPanelLayout.createSequentialGroup()
-                            .addGap(18, 18, 18)
-                            .addGroup(stdPakAdvanceSearchJPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                .addGroup(stdPakAdvanceSearchJPanelLayout.createSequentialGroup()
-                                    .addGroup(stdPakAdvanceSearchJPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                        .addComponent(chk_StdPakAdvSearchPackName)
-                                        .addComponent(chk_StdPakAdvSearchVehiType)
-                                        .addComponent(chk_StdPakAdvSearchPakPrice))
-                                    .addGap(0, 0, Short.MAX_VALUE))
-                                .addComponent(chk_StdPakAdvSearchKmLimit, javax.swing.GroupLayout.DEFAULT_SIZE, 133, Short.MAX_VALUE))
-                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                            .addGroup(stdPakAdvanceSearchJPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                .addComponent(txt_StdPakAdvSearchKmLimit, javax.swing.GroupLayout.PREFERRED_SIZE, 157, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addComponent(txt_StdPakAdvSearchPrice, javax.swing.GroupLayout.PREFERRED_SIZE, 157, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGroup(stdPakAdvanceSearchJPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
-                                    .addComponent(txt_StdPakAdvSearchPakName, javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(p_cmb_vehicleType, 0, 157, Short.MAX_VALUE)))
-                            .addGap(30, 30, 30)))
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, stdPakAdvanceSearchJPanelLayout.createSequentialGroup()
+                        .addGap(33, 33, 33)
+                        .addComponent(btn_StdPakAdvSearch))
+                    .addGroup(stdPakAdvanceSearchJPanelLayout.createSequentialGroup()
+                        .addGap(18, 18, 18)
+                        .addGroup(stdPakAdvanceSearchJPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(stdPakAdvanceSearchJPanelLayout.createSequentialGroup()
+                                .addGroup(stdPakAdvanceSearchJPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(chk_StdPakAdvSearchPackName)
+                                    .addComponent(chk_StdPakAdvSearchVehiType)
+                                    .addComponent(chk_StdPakAdvSearchPakPrice))
+                                .addGap(0, 0, Short.MAX_VALUE))
+                            .addComponent(chk_StdPakAdvSearchKmLimit, javax.swing.GroupLayout.DEFAULT_SIZE, 133, Short.MAX_VALUE))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(stdPakAdvanceSearchJPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(txt_StdPakAdvSearchKmLimit, javax.swing.GroupLayout.PREFERRED_SIZE, 157, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(txt_StdPakAdvSearchPrice, javax.swing.GroupLayout.PREFERRED_SIZE, 157, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addGroup(stdPakAdvanceSearchJPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
+                                .addComponent(txt_StdPakAdvSearchPakName, javax.swing.GroupLayout.Alignment.LEADING)
+                                .addComponent(p_cmb_vehicleType, 0, 157, Short.MAX_VALUE)))
+                        .addGap(30, 30, 30))
                     .addGroup(stdPakAdvanceSearchJPanelLayout.createSequentialGroup()
                         .addContainerGap()
                         .addComponent(jLabel28)
@@ -1425,7 +1424,7 @@ public class main extends javax.swing.JFrame {
                     .addComponent(chk_StdPakAdvSearchPakPrice)
                     .addComponent(txt_StdPakAdvSearchPrice, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addGroup(stdPakAdvanceSearchJPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                .addGroup(stdPakAdvanceSearchJPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(txt_StdPakAdvSearchKmLimit, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(chk_StdPakAdvSearchKmLimit))
                 .addGap(18, 18, 18)
@@ -1528,7 +1527,7 @@ public class main extends javax.swing.JFrame {
             jPanel11_packageLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel11_packageLayout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jPanel19_package, javax.swing.GroupLayout.PREFERRED_SIZE, 1100, Short.MAX_VALUE)
+                .addComponent(jPanel19_package, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addGap(35, 35, 35))
         );
         jPanel11_packageLayout.setVerticalGroup(
@@ -1543,7 +1542,7 @@ public class main extends javax.swing.JFrame {
         PackagesLayout.setHorizontalGroup(
             PackagesLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, PackagesLayout.createSequentialGroup()
-                .addContainerGap(907, Short.MAX_VALUE)
+                .addContainerGap(925, Short.MAX_VALUE)
                 .addComponent(jLabel9_package)
                 .addGap(219, 219, 219))
             .addComponent(jPanel11_package, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
@@ -1615,7 +1614,7 @@ public class main extends javax.swing.JFrame {
                     .addComponent(lbl_searchGeneralCustomer, javax.swing.GroupLayout.PREFERRED_SIZE, 135, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(CusSrchGenB))
                 .addGap(18, 18, 18)
-                .addComponent(SrchGenCusScrollPane, javax.swing.GroupLayout.DEFAULT_SIZE, 758, Short.MAX_VALUE)
+                .addComponent(SrchGenCusScrollPane, javax.swing.GroupLayout.DEFAULT_SIZE, 769, Short.MAX_VALUE)
                 .addContainerGap())
         );
         GennCusPanelLayout.setVerticalGroup(
@@ -1774,7 +1773,7 @@ public class main extends javax.swing.JFrame {
                             .addComponent(SrchOnlineB))))
                 .addGap(5, 5, 5)
                 .addComponent(SrchonlineparmT, javax.swing.GroupLayout.PREFERRED_SIZE, 150, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(18, 18, Short.MAX_VALUE)
+                .addGap(18, 51, Short.MAX_VALUE)
                 .addComponent(srchOnlineScrollPane, javax.swing.GroupLayout.PREFERRED_SIZE, 770, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap())
         );
@@ -1984,7 +1983,7 @@ public class main extends javax.swing.JFrame {
                 .addGroup(jpanAdvancedSearchLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                     .addComponent(DATEPICKER_searchEndDate2, javax.swing.GroupLayout.DEFAULT_SIZE, 153, Short.MAX_VALUE)
                     .addComponent(DATEPICKER_searchStarttDate2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 31, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 10, Short.MAX_VALUE)
                 .addComponent(BTN_ADsearch, javax.swing.GroupLayout.PREFERRED_SIZE, 113, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(28, 28, 28))
         );
@@ -2135,7 +2134,7 @@ public class main extends javax.swing.JFrame {
         promotionAndDealsSubJpanel_01Layout.setHorizontalGroup(
             promotionAndDealsSubJpanel_01Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(promotionAndDealsSubJpanel_01Layout.createSequentialGroup()
-                .addContainerGap(12, Short.MAX_VALUE)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addComponent(PjLableID)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(promotionAndDealsSubJpanel_01Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -2148,28 +2147,17 @@ public class main extends javax.swing.JFrame {
                             .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
                     .addGroup(promotionAndDealsSubJpanel_01Layout.createSequentialGroup()
                         .addGroup(promotionAndDealsSubJpanel_01Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(promotionAndDealsSubJpanel_01Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                                .addGroup(promotionAndDealsSubJpanel_01Layout.createSequentialGroup()
-                                    .addComponent(PName4, javax.swing.GroupLayout.PREFERRED_SIZE, 55, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addGroup(promotionAndDealsSubJpanel_01Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                        .addGroup(promotionAndDealsSubJpanel_01Layout.createSequentialGroup()
-                                            .addGap(13, 13, 13)
-                                            .addComponent(PjBAdd, javax.swing.GroupLayout.PREFERRED_SIZE, 82, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                            .addComponent(PjBEdit, javax.swing.GroupLayout.PREFERRED_SIZE, 94, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                            .addComponent(PjBDelete)
-                                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                            .addComponent(PjBReset))
-                                        .addGroup(promotionAndDealsSubJpanel_01Layout.createSequentialGroup()
-                                            .addGap(38, 38, 38)
-                                            .addComponent(PPicture, javax.swing.GroupLayout.PREFERRED_SIZE, 236, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                            .addComponent(PjBUpload))))
-                                .addGroup(javax.swing.GroupLayout.Alignment.LEADING, promotionAndDealsSubJpanel_01Layout.createSequentialGroup()
-                                    .addComponent(PName)
-                                    .addGap(61, 61, 61)
-                                    .addComponent(PNameText, javax.swing.GroupLayout.PREFERRED_SIZE, 318, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                            .addGroup(promotionAndDealsSubJpanel_01Layout.createSequentialGroup()
+                                .addComponent(PName)
+                                .addGap(61, 61, 61)
+                                .addComponent(PNameText, javax.swing.GroupLayout.PREFERRED_SIZE, 318, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addGroup(promotionAndDealsSubJpanel_01Layout.createSequentialGroup()
+                                .addGap(15, 15, 15)
+                                .addComponent(PName4, javax.swing.GroupLayout.PREFERRED_SIZE, 55, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addGap(27, 27, 27)
+                                .addComponent(PPicture, javax.swing.GroupLayout.PREFERRED_SIZE, 230, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(PjBUpload, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE))
                             .addGroup(promotionAndDealsSubJpanel_01Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                                 .addGroup(promotionAndDealsSubJpanel_01Layout.createSequentialGroup()
                                     .addComponent(PDescription)
@@ -2181,8 +2169,17 @@ public class main extends javax.swing.JFrame {
                                     .addGroup(promotionAndDealsSubJpanel_01Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                                         .addComponent(PJDateChooserTo, javax.swing.GroupLayout.DEFAULT_SIZE, 318, Short.MAX_VALUE)
                                         .addComponent(PJDateChooser, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                        .addComponent(PDiscountText, javax.swing.GroupLayout.DEFAULT_SIZE, 318, Short.MAX_VALUE)))))
-                        .addContainerGap(19, Short.MAX_VALUE))))
+                                        .addComponent(PDiscountText, javax.swing.GroupLayout.DEFAULT_SIZE, 318, Short.MAX_VALUE))))
+                            .addGroup(promotionAndDealsSubJpanel_01Layout.createSequentialGroup()
+                                .addGap(40, 40, 40)
+                                .addComponent(PjBAdd, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                .addComponent(PjBEdit, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                .addComponent(PjBDelete, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                .addComponent(PjBReset, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addContainerGap(20, Short.MAX_VALUE))))
         );
         promotionAndDealsSubJpanel_01Layout.setVerticalGroup(
             promotionAndDealsSubJpanel_01Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -2217,13 +2214,13 @@ public class main extends javax.swing.JFrame {
                             .addComponent(PPicture, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(PName4)
                             .addComponent(PjBUpload))))
-                .addGap(18, 18, 18)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 14, Short.MAX_VALUE)
                 .addGroup(promotionAndDealsSubJpanel_01Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(PjBAdd)
                     .addComponent(PjBEdit)
                     .addComponent(PjBDelete)
                     .addComponent(PjBReset))
-                .addContainerGap(16, Short.MAX_VALUE))
+                .addGap(20, 20, 20))
         );
 
         promotionAndDealsSubJpanel_02.setBorder(javax.swing.BorderFactory.createTitledBorder("Search Promotion and Deals"));
@@ -2249,7 +2246,7 @@ public class main extends javax.swing.JFrame {
                     .addGroup(promotionAndDealsSubJpanel_02Layout.createSequentialGroup()
                         .addGap(43, 43, 43)
                         .addComponent(PSearchName)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 42, Short.MAX_VALUE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 98, Short.MAX_VALUE)
                         .addComponent(PSearchNameText, javax.swing.GroupLayout.PREFERRED_SIZE, 375, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addGap(60, 60, 60))
         );
@@ -2297,7 +2294,7 @@ public class main extends javax.swing.JFrame {
         promotionAndDealsSubJpanel_03Layout.setVerticalGroup(
             promotionAndDealsSubJpanel_03Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, promotionAndDealsSubJpanel_03Layout.createSequentialGroup()
-                .addComponent(promotionAndDealsSubJScrollpanel_03, javax.swing.GroupLayout.DEFAULT_SIZE, 227, Short.MAX_VALUE)
+                .addComponent(promotionAndDealsSubJScrollpanel_03, javax.swing.GroupLayout.DEFAULT_SIZE, 180, Short.MAX_VALUE)
                 .addContainerGap())
         );
 
@@ -2441,14 +2438,6 @@ public class main extends javax.swing.JFrame {
                                 .addComponent(jLabel27)
                                 .addGap(18, 18, 18)
                                 .addComponent(MIQtyText, javax.swing.GroupLayout.PREFERRED_SIZE, 268, javax.swing.GroupLayout.PREFERRED_SIZE))))
-                    .addComponent(MIAddBtn, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addGroup(Marketing_sub_Jpanel_1Layout.createSequentialGroup()
-                        .addGap(105, 105, 105)
-                        .addComponent(MIEditBtn, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(18, 18, 18)
-                        .addComponent(MIDeleteBtn)
-                        .addGap(18, 18, 18)
-                        .addComponent(PjBReset1))
                     .addGroup(Marketing_sub_Jpanel_1Layout.createSequentialGroup()
                         .addComponent(jLabel25)
                         .addGap(77, 77, 77)
@@ -2456,7 +2445,15 @@ public class main extends javax.swing.JFrame {
                     .addGroup(Marketing_sub_Jpanel_1Layout.createSequentialGroup()
                         .addComponent(jLabel24)
                         .addGap(47, 47, 47)
-                        .addComponent(Marketing_JscrollPane_1, javax.swing.GroupLayout.PREFERRED_SIZE, 268, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addComponent(Marketing_JscrollPane_1, javax.swing.GroupLayout.PREFERRED_SIZE, 268, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(Marketing_sub_Jpanel_1Layout.createSequentialGroup()
+                        .addComponent(MIAddBtn, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(18, 18, 18)
+                        .addComponent(MIEditBtn, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(22, 22, 22)
+                        .addComponent(MIDeleteBtn, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(18, 18, 18)
+                        .addComponent(PjBReset1, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addGap(0, 0, Short.MAX_VALUE))
         );
         Marketing_sub_Jpanel_1Layout.setVerticalGroup(
@@ -2487,8 +2484,8 @@ public class main extends javax.swing.JFrame {
                 .addGap(18, 18, 18)
                 .addComponent(MIID)
                 .addGap(18, 18, 18)
-                .addComponent(Marketing_JscrollPane_2, javax.swing.GroupLayout.PREFERRED_SIZE, 166, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(42, 42, 42))
+                .addComponent(Marketing_JscrollPane_2, javax.swing.GroupLayout.PREFERRED_SIZE, 153, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(55, 55, 55))
         );
 
         Marketing_sub_Jpanel2.setBorder(javax.swing.BorderFactory.createTitledBorder("Campaigns"));
@@ -2643,59 +2640,61 @@ public class main extends javax.swing.JFrame {
         Marketing_sub_Jpanel2Layout.setHorizontalGroup(
             Marketing_sub_Jpanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(Marketing_sub_Jpanel2Layout.createSequentialGroup()
-                .addGap(54, 54, 54)
-                .addComponent(MCAddBtn, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(18, 18, 18)
-                .addComponent(MCEditBtn, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(18, 18, 18)
-                .addComponent(MCDeleteBtn)
-                .addGap(18, 18, 18)
-                .addComponent(MCjBReset)
-                .addGap(0, 0, Short.MAX_VALUE))
-            .addGroup(Marketing_sub_Jpanel2Layout.createSequentialGroup()
-                .addContainerGap()
                 .addGroup(Marketing_sub_Jpanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(Marketing_sub_Jpanel2Layout.createSequentialGroup()
-                        .addGroup(Marketing_sub_Jpanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                        .addContainerGap()
+                        .addGroup(Marketing_sub_Jpanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(Marketing_sub_Jpanel2Layout.createSequentialGroup()
-                                .addGroup(Marketing_sub_Jpanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addGroup(Marketing_sub_Jpanel2Layout.createSequentialGroup()
-                                        .addComponent(PDiscount2)
-                                        .addGap(40, 40, 40)
-                                        .addComponent(MCCost, javax.swing.GroupLayout.PREFERRED_SIZE, 280, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addGroup(Marketing_sub_Jpanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                                     .addGroup(Marketing_sub_Jpanel2Layout.createSequentialGroup()
                                         .addGroup(Marketing_sub_Jpanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                            .addComponent(PDiscount3)
-                                            .addComponent(PValidDate1, javax.swing.GroupLayout.PREFERRED_SIZE, 38, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                        .addGap(26, 26, 26)
-                                        .addComponent(jButton8, javax.swing.GroupLayout.PREFERRED_SIZE, 95, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                                .addGap(68, 68, 68))
-                            .addGroup(Marketing_sub_Jpanel2Layout.createSequentialGroup()
-                                .addGroup(Marketing_sub_Jpanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                                    .addComponent(MCDateChooser, javax.swing.GroupLayout.PREFERRED_SIZE, 280, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addGroup(javax.swing.GroupLayout.Alignment.LEADING, Marketing_sub_Jpanel2Layout.createSequentialGroup()
-                                        .addGroup(Marketing_sub_Jpanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                            .addComponent(PDiscount1)
-                                            .addComponent(PDescription1)
-                                            .addComponent(PName1))
-                                        .addGap(35, 35, 35)
-                                        .addGroup(Marketing_sub_Jpanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                                             .addGroup(Marketing_sub_Jpanel2Layout.createSequentialGroup()
-                                                .addComponent(MCNameText)
-                                                .addGap(1, 1, 1))
-                                            .addComponent(Marketing_JscrollPane_3, javax.swing.GroupLayout.PREFERRED_SIZE, 280, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                            .addComponent(MVenueText, javax.swing.GroupLayout.PREFERRED_SIZE, 280, javax.swing.GroupLayout.PREFERRED_SIZE))))
-                                .addGap(24, 24, 24)
-                                .addComponent(MCSearchLable, javax.swing.GroupLayout.DEFAULT_SIZE, 45, Short.MAX_VALUE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)))
-                        .addGroup(Marketing_sub_Jpanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                            .addComponent(MCSearchText, javax.swing.GroupLayout.PREFERRED_SIZE, 197, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(MCSearchBtn)))
-                    .addComponent(Marketing_JscrollPane_4, javax.swing.GroupLayout.PREFERRED_SIZE, 662, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                                .addComponent(PDiscount2)
+                                                .addGap(40, 40, 40)
+                                                .addComponent(MCCost, javax.swing.GroupLayout.PREFERRED_SIZE, 280, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                            .addGroup(Marketing_sub_Jpanel2Layout.createSequentialGroup()
+                                                .addGroup(Marketing_sub_Jpanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                                    .addComponent(PDiscount3)
+                                                    .addComponent(PValidDate1, javax.swing.GroupLayout.PREFERRED_SIZE, 38, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                                .addGap(26, 26, 26)
+                                                .addComponent(jButton8, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                                        .addGap(68, 68, 68))
+                                    .addGroup(Marketing_sub_Jpanel2Layout.createSequentialGroup()
+                                        .addGroup(Marketing_sub_Jpanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                                            .addComponent(MCDateChooser, javax.swing.GroupLayout.PREFERRED_SIZE, 280, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                            .addGroup(javax.swing.GroupLayout.Alignment.LEADING, Marketing_sub_Jpanel2Layout.createSequentialGroup()
+                                                .addGroup(Marketing_sub_Jpanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                                    .addComponent(PDiscount1)
+                                                    .addComponent(PDescription1)
+                                                    .addComponent(PName1))
+                                                .addGap(35, 35, 35)
+                                                .addGroup(Marketing_sub_Jpanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                                                    .addGroup(Marketing_sub_Jpanel2Layout.createSequentialGroup()
+                                                        .addComponent(MCNameText)
+                                                        .addGap(1, 1, 1))
+                                                    .addComponent(Marketing_JscrollPane_3, javax.swing.GroupLayout.PREFERRED_SIZE, 280, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                                    .addComponent(MVenueText, javax.swing.GroupLayout.PREFERRED_SIZE, 280, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                                        .addGap(24, 24, 24)
+                                        .addComponent(MCSearchLable, javax.swing.GroupLayout.DEFAULT_SIZE, 45, Short.MAX_VALUE)
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)))
+                                .addGroup(Marketing_sub_Jpanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                                    .addComponent(MCSearchText, javax.swing.GroupLayout.PREFERRED_SIZE, 197, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(MCSearchBtn, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                            .addGroup(Marketing_sub_Jpanel2Layout.createSequentialGroup()
+                                .addGroup(Marketing_sub_Jpanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
+                                    .addComponent(Marketing_JscrollPane_4, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, 662, Short.MAX_VALUE)
+                                    .addComponent(Marketing_JscrollPane_6, javax.swing.GroupLayout.Alignment.LEADING))
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(Marketing_JscrollPane_5, javax.swing.GroupLayout.PREFERRED_SIZE, 662, javax.swing.GroupLayout.PREFERRED_SIZE))))
                     .addGroup(Marketing_sub_Jpanel2Layout.createSequentialGroup()
-                        .addComponent(Marketing_JscrollPane_6, javax.swing.GroupLayout.PREFERRED_SIZE, 662, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(Marketing_JscrollPane_5, javax.swing.GroupLayout.PREFERRED_SIZE, 662, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addGap(58, 58, 58)
+                        .addComponent(MCAddBtn, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(18, 18, 18)
+                        .addComponent(MCEditBtn, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(18, 18, 18)
+                        .addComponent(MCDeleteBtn, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(18, 18, 18)
+                        .addComponent(MCjBReset, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         Marketing_sub_Jpanel2Layout.setVerticalGroup(
@@ -2736,18 +2735,18 @@ public class main extends javax.swing.JFrame {
                         .addGap(6, 6, 6)
                         .addComponent(PDiscount2))
                     .addComponent(MCCost, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(30, 30, 30)
-                .addGroup(Marketing_sub_Jpanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(MCAddBtn, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(MCEditBtn, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(MCDeleteBtn)
-                    .addComponent(MCjBReset))
                 .addGroup(Marketing_sub_Jpanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(Marketing_sub_Jpanel2Layout.createSequentialGroup()
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                         .addComponent(Marketing_JscrollPane_5, javax.swing.GroupLayout.PREFERRED_SIZE, 207, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(Marketing_sub_Jpanel2Layout.createSequentialGroup()
-                        .addGap(47, 47, 47)
+                        .addGap(41, 41, 41)
+                        .addGroup(Marketing_sub_Jpanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(MCAddBtn, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(MCEditBtn, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(MCDeleteBtn)
+                            .addComponent(MCjBReset))
+                        .addGap(36, 36, 36)
                         .addComponent(Marketing_JscrollPane_4, javax.swing.GroupLayout.PREFERRED_SIZE, 171, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(69, 69, 69)
                         .addComponent(Marketing_JscrollPane_6, javax.swing.GroupLayout.PREFERRED_SIZE, 207, javax.swing.GroupLayout.PREFERRED_SIZE)))
@@ -2762,8 +2761,7 @@ public class main extends javax.swing.JFrame {
                 .addContainerGap()
                 .addComponent(Marketing_sub_Jpanel_1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(Marketing_sub_Jpanel2, javax.swing.GroupLayout.PREFERRED_SIZE, 682, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addComponent(Marketing_sub_Jpanel2, javax.swing.GroupLayout.PREFERRED_SIZE, 695, Short.MAX_VALUE))
         );
         Marketing_main_JpanelLayout.setVerticalGroup(
             Marketing_main_JpanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -2781,13 +2779,13 @@ public class main extends javax.swing.JFrame {
             MarketingLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(MarketingLayout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(Marketing_main_Jpanel, javax.swing.GroupLayout.PREFERRED_SIZE, 1135, Short.MAX_VALUE))
+                .addComponent(Marketing_main_Jpanel, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         MarketingLayout.setVerticalGroup(
             MarketingLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(MarketingLayout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(Marketing_main_Jpanel, javax.swing.GroupLayout.PREFERRED_SIZE, 692, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(Marketing_main_Jpanel, javax.swing.GroupLayout.PREFERRED_SIZE, 646, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
@@ -2797,9 +2795,7 @@ public class main extends javax.swing.JFrame {
         jPanel9.setLayout(jPanel9Layout);
         jPanel9Layout.setHorizontalGroup(
             jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel9Layout.createSequentialGroup()
-                .addComponent(jTabbedPane3, javax.swing.GroupLayout.PREFERRED_SIZE, 1110, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(0, 35, Short.MAX_VALUE))
+            .addComponent(jTabbedPane3)
         );
         jPanel9Layout.setVerticalGroup(
             jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -2979,7 +2975,7 @@ public class main extends javax.swing.JFrame {
                     .addGroup(jPanel13_driverLayout.createSequentialGroup()
                         .addGap(18, 18, 18)
                         .addComponent(jScrollPane3_driver, javax.swing.GroupLayout.PREFERRED_SIZE, 774, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addContainerGap(36, Short.MAX_VALUE))))
+                        .addContainerGap(54, Short.MAX_VALUE))))
         );
         jPanel13_driverLayout.setVerticalGroup(
             jPanel13_driverLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -3079,7 +3075,7 @@ public class main extends javax.swing.JFrame {
         jPanel12_driver.setLayout(jPanel12_driverLayout);
         jPanel12_driverLayout.setHorizontalGroup(
             jPanel12_driverLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 0, Short.MAX_VALUE)
+            .addGap(0, 1160, Short.MAX_VALUE)
         );
         jPanel12_driverLayout.setVerticalGroup(
             jPanel12_driverLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -3118,7 +3114,7 @@ public class main extends javax.swing.JFrame {
                 jbBillSearchActionPerformed(evt);
             }
         });
-        JUtilityPanel_main.add(jbBillSearch, new org.netbeans.lib.awtextra.AbsoluteConstraints(470, 60, 105, 20));
+        JUtilityPanel_main.add(jbBillSearch, new org.netbeans.lib.awtextra.AbsoluteConstraints(470, 60, 80, -1));
 
         ibBillDelete.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
         ibBillDelete.setText("Delete");
@@ -3127,7 +3123,7 @@ public class main extends javax.swing.JFrame {
                 ibBillDeleteActionPerformed(evt);
             }
         });
-        JUtilityPanel_main.add(ibBillDelete, new org.netbeans.lib.awtextra.AbsoluteConstraints(600, 60, 107, 20));
+        JUtilityPanel_main.add(ibBillDelete, new org.netbeans.lib.awtextra.AbsoluteConstraints(580, 60, 80, -1));
 
         jtutility.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
@@ -3147,7 +3143,7 @@ public class main extends javax.swing.JFrame {
                 jbBillAddActionPerformed(evt);
             }
         });
-        JUtilityPanel_main.add(jbBillAdd, new org.netbeans.lib.awtextra.AbsoluteConstraints(730, 60, 120, -1));
+        JUtilityPanel_main.add(jbBillAdd, new org.netbeans.lib.awtextra.AbsoluteConstraints(690, 60, 80, -1));
 
         jTabbedPane2.addTab("UTILITY BILL HANDLING", JUtilityPanel_main);
 
@@ -3519,7 +3515,7 @@ public class main extends javax.swing.JFrame {
 
         Marketing_mgt.addTab("EMPLOYEE", EmployeeMgtSystem);
 
-        getContentPane().add(Marketing_mgt, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 60, 1150, 710));
+        getContentPane().add(Marketing_mgt, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 60, 1170, 710));
 
         jLabel16.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/close_bt.png"))); // NOI18N
         jLabel16.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
@@ -6012,7 +6008,7 @@ public class main extends javax.swing.JFrame {
     private javax.swing.JTextField driver_lname;
     private javax.swing.JTextField driver_nic;
     private javax.swing.JTextField driver_phone;
-    private javax.swing.JTextField driver_picture;
+    public static javax.swing.JTextField driver_picture;
     private javax.swing.JButton driver_remove_jbutton;
     private javax.swing.JButton driver_reset_fields;
     private javax.swing.JTextField driver_search;
@@ -6104,7 +6100,7 @@ public class main extends javax.swing.JFrame {
     private javax.swing.JScrollPane jsp;
     private javax.swing.JTextField jtblno;
     private javax.swing.JTextField jtche;
-    private javax.swing.JTable jtcheque;
+    public static javax.swing.JTable jtcheque;
     private javax.swing.JTable jtutility;
     private javax.swing.JLabel lbl_Eid_Employee;
     private javax.swing.JLabel lbl_FuelType_Vehiclel;
